@@ -1,0 +1,99 @@
+@font-face {
+  font-family: "Droid Sans";
+  src: url("./assets/fonts/DroidSans.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+  }
+
+  @font-face {
+    font-family: "Droid Sans Bold";
+    src: url("./assets/fonts/DroidSans-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: bold;
+    }
+
+body {
+  min-height: 100vh;
+  min-width: 900px;
+  margin: 0;
+  background-image: url("./assets/background.png");
+  background-color: #d7aeda;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  font-family: "Droid Sans";
+  color: #ffffff;
+ }
+
+ header {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+ }
+
+ nav {
+   font-size: 24px;
+   margin-top: 10px;
+   margin-right: 40px;
+ }
+
+li {
+  list-style-type: none;
+  padding: 0;
+  display: inline-block;
+  margin: 25px;
+}
+
+a, a:visited {
+  color: rgba(255,255,255, 0.8);
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+a:hover, a:focus, a:visited:hover, a:visited:focus {
+  color: rgba(255,255,255, 1);
+}
+
+#logo-container {
+  display: block;
+}
+
+#logo {
+  width: 160px;
+  height: auto;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+	flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin-top: 81px;
+  font-family: "Droid Sans";
+  font-size: 60px;
+  font-weight: normal;
+}
+
+h1 span {
+  display: block;
+}
+
+#Japan {
+  font-family: "Droid Sans Bold";
+  font-size: 125px;
+  margin-top: -15px;
+}
+
+p {
+  font-family: "Droid Sans";
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+}
