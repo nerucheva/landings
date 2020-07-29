@@ -3,14 +3,14 @@
   src: url("./assets/fonts/DroidSans.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
-  }
+}
 
-  @font-face {
-    font-family: "Droid Sans Bold";
-    src: url("./assets/fonts/DroidSans-Bold.ttf") format("truetype");
-    font-style: normal;
-    font-weight: bold;
-    }
+@font-face {
+  font-family: "Droid Sans";
+  src: url("./assets/fonts/DroidSans-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: bold;
+}
 
 body {
   min-height: 100vh;
@@ -23,20 +23,20 @@ body {
   background-position: center bottom;
   font-family: "Droid Sans";
   color: #ffffff;
- }
+}
 
- header {
+header {
   display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-between;
- }
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
 
- nav {
-   font-size: 24px;
-   margin-top: 10px;
-   margin-right: 40px;
- }
+nav {
+  font-size: 24px;
+  margin-top: 10px;
+  margin-right: 40px;
+}
 
 li {
   list-style-type: none;
@@ -45,14 +45,18 @@ li {
   margin: 25px;
 }
 
-a, a:visited {
-  color: rgba(255,255,255, 0.8);
+a,
+a:visited {
+  color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
   transition: color 0.5s;
 }
 
-a:hover, a:focus, a:visited:hover, a:visited:focus {
-  color: rgba(255,255,255, 1);
+a:hover,
+a:focus,
+a:visited:hover,
+a:visited:focus {
+  color: rgba(255, 255, 255, 1);
 }
 
 #logo-container {
@@ -69,7 +73,7 @@ a:hover, a:focus, a:visited:hover, a:visited:focus {
 main {
   display: flex;
   flex-direction: column;
-	flex-wrap: wrap;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
@@ -86,8 +90,9 @@ h1 span {
 }
 
 #Japan {
-  font-family: "Droid Sans Bold";
+  font-family: "Droid Sans";
   font-size: 125px;
+  font-weight: bold;
   margin-top: -15px;
 }
 
