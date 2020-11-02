@@ -28,10 +28,17 @@
 
     <title>#ЯЧИТАЮ</title>
   </head>
+
   <body>
     <nav class="navbar navbar-dark bg-dark">
       <a class="navbar-brand" href="#">
-        <img src="./assets/images/logo.svg" width="30" height="30" alt="" loading="lazy">
+        <img
+          src="./assets/images/logo.svg"
+          width="30"
+          height="30"
+          alt=""
+          loading="lazy"
+        />
         <nav class="nav">
           <a class="nav-link active" href="#">Книги</a>
           <a class="nav-link" href="#">Встречи</a>
@@ -41,7 +48,364 @@
           <button type="button" class="btn btn-light">Светлый</button>
         </nav>
       </a>
-      <!-- Navbar content -->
     </nav>
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+
+        <a href="#" data-toggle="modal" data-target="#exampleModal"
+          >Выберите ваш город</a
+        >
+
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">...</div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-dismiss="modal"
+                >
+                  Close
+                </button>
+                <button type="button" class="btn btn-primary">
+                  Save changes
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="jumbotron jumbotron-fluid">
+          <img src="./assets/images/cover-image.jpg" class="col-4" />
+          <div class="container">
+            <h1 class="display-4">Джейн Остен «Гордость и предубеждение»</h1>
+            <p class="lead">
+              «Все знают, что молодой человек, располагающий средствами, должен
+              подыскивать себе жену. <br />
+              Как бы мало ни были известны намерения и взгляды такого человека
+              после того, как он поселился на новом месте, эта истина настолько
+              прочно овладевает умами неподалеку живущих семейств, что на него
+              тут же начинают смотреть как на законную добычу той или другой
+              соседской дочки...»
+            </p>
+          </div>
+        </div>
+
+        <div class="container">
+          <h1 class="display-4">О книге</h1>
+          <p class="lead">
+            Роман «Гордость и предубеждение» (Pride and Prejudice) является
+            самым популярным произведением английской писательницы Джейн Остен.
+            Это романтическая история любви Элизабет Беннет и Мистера Дарси
+            развивающаяся на фоне сложных нравов английского общества начала 19
+            века. Роман описывает события, происходящие в жизни уважаемой, но
+            небогатой четы Беннет и их 5 дочерей. Основной задачей и заботой
+            родителей является удачное замужество трех старших дочерей. Поэтому,
+            когда в соседнем поместье поселяется молодой, одинокий и
+            состоятельный Чарльз Бингли и его лучший друг мистер Дарси, миссис
+            Беннет начинает надеяться на возможность...
+          </p>
+          <a href="#">Читать полностью</a>
+        </div>
+
+        <div>
+          <div>
+            <p>Автор:</p>
+            <a href="#">Джейн Остен</a>
+          </div>
+
+          <div>
+            <p>Год выпуска:</p>
+            <a href="#">1817</a>
+          </div>
+
+          <div>
+            <p>Жанр:</p>
+            <a href="#">любовный роман</a>
+            <p>,</p>
+            <a href="#">проза XIX века</a>
+          </div>
+
+          <div>
+            <p>Страна:</p>
+            <a href="#">Англия</a>
+          </div>
+        </div>
+
+        <p>Метки настроения для этой книги:</p>
+
+        <a class="btn btn-primary" href="#" role="button">Link</a>
+        <button class="btn btn-primary" type="submit">Button</button>
+        <input class="btn btn-primary" type="button" value="Input" />
+        <input class="btn btn-primary" type="submit" value="Submit" />
+        <input class="btn btn-primary" type="reset" value="Reset" />
+        <a href="#">Читать отзывы</a>
+        <a href="#">Похожие книги</a>
+      </div>
+    </div>
+
+    <div class="meals" style="background-color: #cdcdcd">
+      <div id="carousel-meals" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carousel-meals"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carousel-meals" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col">
+                <img
+                  src="https://shoko.ru/upload/resize_cache/s1/fit_70_700x700/iblock/7ce/7ce58a68d5d0cede0a428ec372862e5a.jpg"
+                  alt="1 slide"
+                />
+              </div>
+              <div class="col">
+                <img
+                  src="https://shoko.ru/upload/resize_cache/s1/fit_70_700x700/iblock/145/145443a97452bc6935965baf475a9b23.jpg"
+                  alt="2 slide"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col">
+                <img
+                  src="https://shoko.ru/upload/resize_cache/s1/fit_70_700x700/iblock/2f1/2f1cdd424b2c73d41bfa14d26babe5c8.jpg"
+                  alt="4 slide"
+                />
+              </div>
+              <div class="col">
+                <img
+                  src="https://shoko.ru/upload/resize_cache/s1/fit_70_700x700/iblock/e6d/e6d484cd02180f37600aceba155ec7a5.jpg"
+                  alt="5 slide"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="caffe-info">
+        <img src="./assets/images/coffee.svg" />
+        <h2>Кофейный дом</h2>
+        <p>Вы можете попробовать это или что-нибудь другое</p>
+        <button type="button" class="btn btn-primary">Подробнее</button>
+        <button type="button" class="btn btn-primary">Другое кафе</button>
+      </div>
+    </div>
+
+    <div class="comments-and-recommended">
+      <div class="comments">
+        <div class="leave-a-comment">
+          <h3>Отзывы (3)</h3>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Example textarea</label>
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="3"
+            ></textarea>
+          </div>
+          <button type="button" class="btn btn-primary">Отправить</button>
+        </div>
+
+        <div class="other-comments">
+          <div class="card mb-3" style="max-width: 540px">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img
+                  src="./assets/images/avatar-1.jpg"
+                  class="card-img"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Алина</h5>
+                  <p class="card-text">
+                    Наконец-то я добралась и до этой книги! Что сказать,
+                    всё-таки это уже классика. Где-то грустное, где-то веселое и
+                    ироничное, это определённо приятное чтение. Кстати сказать,
+                    экранизация с Кирой Найтли вряд ли кого-нибудь разочарует!
+                  </p>
+                  <p class="card-text">
+                    <small class="text-muted">30 августа в 16:48</small>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-3" style="max-width: 540px">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img
+                  src="./assets/images/avatar-2.jpg"
+                  class="card-img"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Olly</h5>
+                  <p class="card-text">
+                    Много хвалебного слышала про эту книгу, но сама не
+                    прониклась. «Он такой надменный и меня не достоин!», «Она
+                    так глупа и бедна и меня не достойна!». И вот это всё на 400
+                    страниц.
+                  </p>
+                  <p class="card-text">
+                    <small class="text-muted">29 августа в 20:05</small>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-3" style="max-width: 540px">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img
+                  src="./assets/images/avatar-3.jpg"
+                  class="card-img"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Varvara</h5>
+                  <p class="card-text">
+                    Отличная книга на все времена! Глубокие и тонкие образы,
+                    разные характеры. Одна из моих любимых книг.
+                  </p>
+                  <p class="card-text">
+                    <small class="text-muted">25 августа в 12:15</small>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="recommended">
+        <h3>Похожие книги</h3>
+
+        <div class="other-comments">
+          <div class="card mb-3" style="max-width: 540px">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img
+                  src="./assets/images/cover-1.jpg"
+                  class="card-img"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">ДЖЕЙН ОСТЕН</h5>
+                  <p class="card-text">«Чувство и чувствительность»</p>
+                  <p class="card-text"><small class="text-muted">319</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-3" style="max-width: 540px">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img
+                  src="./assets/images/cover-2.jpg"
+                  class="card-img"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">МАРГАРЕТ МИТЧЕЛЛ</h5>
+                  <p class="card-text">«Унесённые ветром»</p>
+                  <p class="card-text"><small class="text-muted">600</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-3" style="max-width: 540px">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img
+                  src="./assets/images/cover-3.jpg"
+                  class="card-img"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">ШАРЛОТТА БРОНТЕ</h5>
+                  <p class="card-text">«Джейн Эйр»</p>
+                  <p class="card-text"><small class="text-muted">248</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-3" style="max-width: 540px">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img
+                  src="./assets/images/cover-4.jpg"
+                  class="card-img"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">КОЛИН МАККАЛОУ</h5>
+                  <p class="card-text">«Поющие в терновнике»</p>
+                  <p class="card-text"><small class="text-muted">753</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
